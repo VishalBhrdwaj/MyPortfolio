@@ -1,0 +1,10 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+body{
+  background-image: url("https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8553.jpg?size=626&ext=jpg&ga=GA1.1.937235520.1704524047&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
