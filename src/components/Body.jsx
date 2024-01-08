@@ -7,6 +7,10 @@ import SkilsCard from './cards/SkilsCard'
 import Crousel from './cards/Crousel'
 
 const Body = () => {
+  let frontendSkills=["HTML","CSS","JavaScript","TailWind CSS","React JS"];
+  let backendSkills=["Node js","Express JS","JWT"];
+  let devopsSkills=["Docker","Kubernetes","Git"];
+  let databasesSkills=["MySql","Mongoose","MongoDB"];
   return (  
     <div className='ml-14'>
         <div className='flex'>
@@ -14,9 +18,20 @@ const Body = () => {
         <MyImage/>
         </div>
       
-       <OuterConatiner heading={"My Projects"} anotherComponent={<ProjectCard projectDescription={"This is made in javaScript ,React js,Tailwind for Styling"} projectHeading={"MY project 1"}  imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>}/>
+       <OuterConatiner heading={"My projects"}>
+        <ProjectCard projectHeading={"MY Projects"} projectDescription={"This is My project Description"} imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>
+        <ProjectCard projectHeading={"MY Projects"} projectDescription={"This is My project Description"} imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>
+        <ProjectCard projectHeading={"MY Projects"} projectDescription={"This is My project Description"} imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>
+        <ProjectCard projectHeading={"MY Projects"} projectDescription={"This is My project Description"} imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>
+       
+        </OuterConatiner>
        {/* <Crousel/> */}
-       <OuterConatiner heading={"What I know"} anotherComponent={<SkilsCard />}/>
+       <OuterConatiner heading={"My Skill Set"}>
+        <SkilsCard skills={frontendSkills} skillsType={"Frontend"}/>
+        <SkilsCard skills={backendSkills} skillsType={"Backend"}/>
+        <SkilsCard skills={devopsSkills} skillsType={"DevOps"}/>
+        <SkilsCard skills={databasesSkills} skillsType={"Databases"}/>
+       </OuterConatiner>
     </div>
   )
 }
