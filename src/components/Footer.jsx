@@ -13,11 +13,11 @@ const Footer = () => {
                 <br /><br />Thanks  😊
 
             </div>
-            <div className="flex justify-around mt-16">
-                <div id="learing-tech-one" className="rounded p-16 border border-violet-600"></div>
+            {/* <div className="flex justify-around mt-16">
+                <div id="learing-tech-one" className="rounded p-16 border object-contain border-violet-600"></div>
                 <div className="rounded p-16 border border-violet-600">Hello2</div>
                 <div className="rounded p-16 border border-violet-600">Hello3</div>
-            </div>
+            </div> */}
         </div>
         <div className='border border-yellow-500 pl-5 pr-5 w-[40%] mb-5'>
             <h1 className='text-3xl mt-4 pl-10 flex text-center '>Fill Your Details<div className="ml-6 p-1"><MdOutlineContactMail /></div></h1>

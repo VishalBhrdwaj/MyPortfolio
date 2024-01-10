@@ -11,7 +11,7 @@ const AboutMeCard = () => {
             Thanks for Your Time,
             <br></br>
         </p>
-        <button className='flex mt-14 p-3 pl-24 pr-24 rounded-lg  bg-white text-2xl text-black'> <div className='text-3xl mr-3'><FcElectricity />  </div>Get Started </button>
+        <button className='flex mt-14 p-3 pl-24 pr-24 rounded-lg  bg-white text-2xl text-black hover:scale-105 hover:transition ease-linear'> <div className='text-3xl mr-3'><FcElectricity />  </div>Get Started </button>
     </div>
   )
 }

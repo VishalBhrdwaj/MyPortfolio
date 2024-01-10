@@ -7,8 +7,10 @@ body{
 }
 
 #learing-tech-one{
-background-image: url("https://www.dacast.com/wp-content/uploads/2021/04/webrtc.jpeg");
+background-image: url("https://reactrouter.com/twitterimage.jpg");
 background-size:cover;
 background-repeat: no-repeat;
+height: 100%;
+width: 100%;
 
 }
