@@ -19,10 +19,10 @@ const Body = () => {
         </div>
       
        <OuterConatiner heading={"My projects"}>
-        <ProjectCard projectHeading={"MY Projects"} projectDescription={"This is My project Description"} imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>
-        <ProjectCard projectHeading={"MY Projects"} projectDescription={"This is My project Description"} imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>
-        <ProjectCard projectHeading={"MY Projects"} projectDescription={"This is My project Description"} imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>
-        <ProjectCard projectHeading={"MY Projects"} projectDescription={"This is My project Description"} imgurl={"https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D"}/>
+        <ProjectCard projectHeading={"MY Portfolio"} projectDescription={"Html, CSS, JavaScript, React JS"} imgurl={"https://designingforuncertainty.com/wp-content/uploads/2022/09/maxresdefault-39.jpg"}/>
+        <ProjectCard projectHeading={"Chat Application"} projectDescription={"React JS ,Socket.io ,Nodejs,Express"} imgurl={"https://herobot.app/wp-content/uploads/2022/11/11-Reasons-Why-A-Chat-Application-Is-Great-For-Business_1.jpg"}/>
+        <ProjectCard projectHeading={"NetFlix clone"} projectDescription={"React js, Redux , Appwrite"} imgurl={"https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5.fit_scale.size_760x427.v1582751026.png"}/>
+        <ProjectCard projectHeading={"Omegle Clone"} projectDescription={"React js ,Socket IO ,WebRTC"} imgurl={"https://www.shutterstock.com/image-photo/poznan-pol-mar-21-2023-260nw-2282851949.jpg"}/>
        
         </OuterConatiner>
        {/* <Crousel/> */}

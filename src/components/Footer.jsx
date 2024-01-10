@@ -2,7 +2,7 @@ import { MdOutlineContactMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className='h  border-emerald-300 mt-5 pt-5 pl-14 mb-10'>
+    <div className=' footer border-emerald-300 mt-5 pt-5 pl-14 mb-10'>
       <div className=''>
         <div className='flex'>
         <div className='w-[50%] mr-4'>
@@ -14,7 +14,7 @@ const Footer = () => {
 
             </div>
             <div className="flex justify-around mt-16">
-                <div className="rounded p-16 border border-violet-600">Hello1</div>
+                <div id="learing-tech-one" className="rounded p-16 border border-violet-600"></div>
                 <div className="rounded p-16 border border-violet-600">Hello2</div>
                 <div className="rounded p-16 border border-violet-600">Hello3</div>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                     <input  className='border border-violet-600 pl-5 pr-5 pt-2 pb-2 rounded-sm mt-4 mb-4 ' type='email' placeholder='Enter your Email'/>
                     <input  className='border border-violet-600 pl-5 pr-5 pt-2 pb-2 rounded-sm mt-4 mb-4 ' type='tel' placeholder='Enter your Phone' />
                     <textarea className='border border-violet-600 pl-5 pr-5 pt-2 pb-2 rounded-sm mt-4 mb-4 ' placeholder='Enter your message'></textarea>
-                    <button  className='border border-violet-600 pl-5 pr-5 pt-3 pb-3 rounded-sm mt-4  '>Submit</button>
+                    <button  className='border border-violet-600 pl-5 pr-5 pt-3 pb-3 rounded-sm mt-4 hover:bg-gradient-to-r from-indigo-500 hover:transition ease-in-out '>Submit</button>
                 </form>
             </div>
         </div>
